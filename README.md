@@ -81,5 +81,3 @@ AI-Powered-LMS/
 ├── .gitignore
 ├── README.md
 └── package.json
-
----
