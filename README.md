@@ -56,28 +56,25 @@ The system also uses **Cloudinary and Multer** for efficient cloud-based media m
 ## 📁 Project Structure
 
 ```text
-AI-Powered-LMS/
+AI_Powered_LMS/
 │
-├── client/                    # React Frontend
+├── backend/
+│   ├── configs/
+│   ├── controllers/
+│   ├── middlewares/
+│   ├── models/
+│   ├── routes/
+│   ├── public/
+│   └── index.js
+│
+├── frontend/
+│   ├── public/
 │   ├── src/
-│   │   ├── components/        # Reusable UI Components
-│   │   ├── pages/             # Application Pages
-│   │   ├── redux/             # Redux Toolkit
-│   │   ├── assets/            # Images & Static Assets
-│   │   └── App.jsx            # Main Application
-│   │
-│   └── package.json
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── customHooks/
+│   │   ├── pages/
+│   │   └── redux/
+│   └── utils/
 │
-├── server/                    # Node.js + Express Backend
-│   ├── controllers/           # Business Logic
-│   ├── models/                # MongoDB/Mongoose Models
-│   ├── routes/                # API Routes
-│   ├── middleware/            # Authentication & Middleware
-│   ├── config/                # Configuration
-│   ├── uploads/               # Uploaded Media
-│   ├── server.js              # Server Entry Point
-│   └── package.json
-│
-├── .gitignore
-├── README.md
-└── package.json
+└── README.md
